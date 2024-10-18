@@ -12,7 +12,6 @@ const SignInForm = ({ setCurrentUser }: { setCurrentUser: (username: string) => 
 
     // Replace this with your actual user validation logic
     const validUsers = {
-      super_admin:"admin",
       hr_user: 'hr_password',
       ceo_user: 'ceo_password',
       finance_user: 'finance_password',
